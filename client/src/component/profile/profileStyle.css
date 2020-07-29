@@ -1,0 +1,23 @@
+.profile{
+    position: fixed;
+    max-width: 100px;
+    left: 50px;
+    top : 120px;
+    outline: 5px solid black;
+    padding-right: 300px;
+    padding-bottom: 200px;
+    
+    
+}
+
+.profile-image{
+    max-width:100%;
+    height:auto;
+    padding: 10px;
+    outline: 1px solid black;
+    border-radius: 10px;
+    vertical-align: text-bottom;
+}
+
+.profile-name{
+}

@@ -1,0 +1,10 @@
+.post-cell{
+    outline: 5px dotted black;
+    height: 200px;
+}
+
+.post-list{
+    position: relative;
+    left: 500px;
+    max-width: 1000px;
+}
