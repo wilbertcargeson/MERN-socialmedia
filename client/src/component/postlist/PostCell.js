@@ -5,8 +5,8 @@ class PostCell extends React.Component{
     constructor(){
         super()
         this.state= {
-            postId:"",
-            userId:"",
+            postID:"",
+            userID:"",
             post:""
         }
     }
@@ -15,8 +15,8 @@ class PostCell extends React.Component{
         // Load up data
         const data = this.props.data
         this.setState({
-            postId: data.postId,
-            userId: data.userId,
+            postID: data.postID,
+            userID: data.userID,
             post: data.post,
         })
     }
@@ -24,7 +24,7 @@ class PostCell extends React.Component{
     render(){
         return(
             <div className="post-cell">
-                <h2>{this.state.postId}</h2>
+                <h2>{this.state.postID}</h2>
                 <p>{this.state.post}</p>
             </div>
         )

@@ -18,7 +18,7 @@ class PostList extends React.Component{
         // this.setState({data:sampleData.posts})
         // console.log(this.state.data)
 
-        const URL = "http://localhost:3001/"
+        const URL = "http://localhost:3001/post/"
 
         fetch(URL)
         .then( res => {
@@ -27,7 +27,7 @@ class PostList extends React.Component{
         })
         .then( fetchedData => {
             console.log(fetchedData)
-            this.setState({data: fetchedData.posts})
+            this.setState({data: fetchedData})
         })
         .catch((error) => {
             console.error(error);
